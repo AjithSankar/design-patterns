@@ -12,7 +12,6 @@ public class EnumTest {
         System.out.println(singleton.hashCode());
 
         // 1. Test enum singleton using Serialization
-
         // Serialize
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("singleton.ser"));
         out.writeObject(singleton);
@@ -28,7 +27,6 @@ public class EnumTest {
         System.out.println(singleton == singleton2);  // Both hash codes will be identical. Java ensures that enum constants are never duplicated, even after deserialization.
 
         // 2. Using Reflection
-
         Constructor<?>[] constructors = Singleton.class.getDeclaredConstructors();
         for (Constructor constructor : constructors) {
             System.out.println("In Constructor");
@@ -42,7 +40,6 @@ public class EnumTest {
                 System.out.println(e);
             }
         }
-
 
     }
 }
