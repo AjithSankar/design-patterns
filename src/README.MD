@@ -8,4 +8,12 @@
    - Abstract factory
    - Builder
 
-2. Structural design pattern
+2. Structural design pattern (How to assemble classes and objects into larger complex structure while keeping these structures flexible and efficient)
+
+   - Adaptor
+   - Bridge
+   - Composite
+   - Decorator  
+   - Facade
+   - Flyweight
+   - Proxy
