@@ -1,4 +1,4 @@
-package structural.adaptor;
+package structural.adapter;
 
 // Adapter for MP4
 public class Mp4PlayerAdapter implements MediaPlayer {

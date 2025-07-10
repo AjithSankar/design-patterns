@@ -1,4 +1,4 @@
-package structural.adaptor;
+package structural.adapter;
 
 // Adaptee class for VLC player
 public class VLCPlayer {

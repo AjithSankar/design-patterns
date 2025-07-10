@@ -1,4 +1,4 @@
-package structural.adaptor;
+package structural.adapter;
 
 // Adapter for VLC
 public class VLCPlayerAdapter implements MediaPlayer {

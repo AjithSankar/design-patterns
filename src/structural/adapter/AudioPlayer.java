@@ -1,4 +1,4 @@
-package structural.adaptor;
+package structural.adapter;
 
 import java.util.HashMap;
 import java.util.Map;

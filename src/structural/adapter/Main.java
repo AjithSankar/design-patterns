@@ -1,4 +1,4 @@
-package structural.adaptor;
+package structural.adapter;
 
 public class Main {
 
