@@ -60,4 +60,11 @@ Proxy is a structural design pattern that lets you provide a substitute or place
 The Strategy Design Pattern is a behavioral pattern that allows you to define a family of algorithms, encapsulate each one as a separate class, and make them interchangeable. This pattern enables the algorithm to vary independently from the clients that use it.
 
 2. [x] Observer
+   What Is the Observer Design Pattern?
+   The Observer Design Pattern is a behavioral pattern that defines a one-to-many dependency between objects. When the "subject" (also called observable or publisher) changes its state, all its dependent "observers" (also called subscribers or listeners) are automatically notified and updated. This pattern helps in implementing distributed event-handling systems, making it easier to keep objects in synch without tight coupling.
+
+Subject: Maintains a list of observers and notifies them of any state changes.
+
+Observer: Defines a method to receive updates from the subject.
+
 3. 
