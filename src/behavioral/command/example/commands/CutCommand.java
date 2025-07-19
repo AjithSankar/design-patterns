@@ -1,4 +1,6 @@
-package behavioral.command.example;
+package behavioral.command.example.commands;
+
+import behavioral.command.example.editor.Editor;
 
 public class CutCommand extends Command {
 

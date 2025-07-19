@@ -1,4 +1,4 @@
-package behavioral.command.example;
+package behavioral.command.example.commands;
 
 import java.util.Stack;
 
