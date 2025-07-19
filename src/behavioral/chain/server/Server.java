@@ -1,4 +1,6 @@
-package behavioral.chain.middleware;
+package behavioral.chain.server;
+
+import behavioral.chain.middleware.Middleware;
 
 import java.util.HashMap;
 import java.util.Map;

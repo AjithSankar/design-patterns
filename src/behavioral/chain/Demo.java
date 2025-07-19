@@ -1,4 +1,10 @@
-package behavioral.chain.middleware;
+package behavioral.chain;
+
+import behavioral.chain.middleware.Middleware;
+import behavioral.chain.middleware.RoleCheckMiddleware;
+import behavioral.chain.middleware.ThrottlingMiddleware;
+import behavioral.chain.middleware.UserExistsMiddleware;
+import behavioral.chain.server.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;

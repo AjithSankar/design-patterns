@@ -1,5 +1,7 @@
 package behavioral.chain.middleware;
 
+import behavioral.chain.server.Server;
+
 /**
  * ConcreteHandler. Checks whether a user with the given credentials exists.
  */
